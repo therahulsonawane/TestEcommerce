@@ -4,6 +4,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* stylling the Navbar */
 nav {
   background-color: black;
   color: white;
@@ -44,7 +45,7 @@ nav {
   color: lightgray;
   font-weight: 400;
 }
-
+/* styling the slider */
 .slider {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
@@ -170,4 +171,30 @@ nav {
   color: grey;
   width: 50%;
   height: 100px;
+}
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.productImg {
+  width: 50%;
+}
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+}
+.productTitle {
+  font-size: 75px;
+  font-weight: 900px;
+}
+
+.productDesc {
+  font-style: 24px;
+  color: grey;
 }
